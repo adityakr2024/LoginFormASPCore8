@@ -28,8 +28,8 @@ create table tblUser
 
 insert into tblUser(NAME, GENDER, AGE, EMAIL, PASSWORD)
 values
-('Ron', 'Male', 20, 'ron@gmail.com', 'Ron@123'),
-('Simmi', 'Female', 20, 'simmi@gmail.com', 'Simmi@123');
+('Ron', 'Male', 20, 'test1@gmail[.]com', 'Ron@123'),
+('Simmi', 'Female', 20, 'test2@gmail[.]com', 'Simmi@123');
 
 select * from tblUser;
 
